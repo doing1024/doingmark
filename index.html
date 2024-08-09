@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://unpkg.com/codemirror@5.40.0/theme/xq-light.css">
+    <link rel="stylesheet" href="https://unpkg.com/codemirror@5.40.0/theme/material.css">
+    <link rel="stylesheet" href="https://unpkg.com/codemirror@5.40.0/lib/codemirror.css">
+    <link rel="stylesheet" href="https://unpkg.com/github-markdown-css@5.6.1/github-markdown-light.css" id="cssfile">
+    <link rel="stylesheet" href="style.css"> 
+    
+  <title>JustMark——专注于写作的Markdown编辑器</title>
+</head>
+<body>
+<textarea id="edit">
+</textarea>
+<div id="show" class='markdown-body'></div>
+<div class="toggle checkbox-wrapper-54">
+    <label class="switch" >
+      <input type="checkbox" onchange="changeTheme()">
+      <span class="slider"></span>
+    </label>
+  </div>
+</body>
+<script src="https://unpkg.com/codemirror@5.40.0/lib/codemirror.js"></script>
+<script src="https://unpkg.com/codemirror@5.40.0/mode/markdown/markdown.js"></script>
+<script src="https://unpkg.com/showdown@2.1.0/dist/showdown.min.js"></script>
+<script src="https://unpkg.com/showdown-katex@0.8.0/dist/showdown-katex.js"></script>
+<script src="script.js"></script>
+</html>

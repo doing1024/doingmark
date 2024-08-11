@@ -24,10 +24,10 @@ var converter = new showdown.Converter({
 var showbar = document.getElementById('show');
 var css = document.getElementById('cssfile');
 if (!window.localStorage.getItem('lastText')) window.localStorage.setItem('lastText',
-`# 欢迎使用JustMark!
-**JustMark** 是一个网页端的Markdown编辑器。
+`# 欢迎使用DoingMark!
+**DoingMark** 是一个网页端的Markdown编辑器。
 
-欢迎访问[github仓库](https://github.com/doing1024/justmark)。
+欢迎访问[github仓库](https://github.com/doing1024/DoingMark)。
 
 欢迎提 PR 或 ISSUE ～`
 );
